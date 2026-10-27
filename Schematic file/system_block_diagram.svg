@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="480" viewBox="0 0 1100 480">
+  <rect width="1100" height="480" fill="#ffffff"/>
+  <text x="550" y="38" font-family="Arial" font-size="24" text-anchor="middle" fill="#172554" font-weight="bold">Task 1.1 — ESP32 Real-Time Voice Transfer</text>
+  <g font-family="Arial" fill="#172554" stroke="#2563eb" stroke-width="2">
+    <rect x="35" y="125" width="185" height="105" rx="12" fill="#eff6ff"/>
+    <rect x="35" y="275" width="185" height="105" rx="12" fill="#eff6ff"/>
+    <rect x="290" y="185" width="190" height="120" rx="12" fill="#dbeafe"/>
+    <rect x="615" y="185" width="190" height="120" rx="12" fill="#dbeafe"/>
+    <rect x="875" y="125" width="190" height="105" rx="12" fill="#f0fdf4" stroke="#16a34a"/>
+    <rect x="875" y="275" width="190" height="105" rx="12" fill="#f0fdf4" stroke="#16a34a"/>
+  </g>
+  <g font-family="Arial" text-anchor="middle" fill="#172554">
+    <text x="127" y="160" font-size="17" font-weight="bold">INMP441 Mic A</text><text x="127" y="185" font-size="14">I2S left slot</text><text x="127" y="205" font-size="13">Sound input</text>
+    <text x="127" y="310" font-size="17" font-weight="bold">INMP441 Mic B</text><text x="127" y="335" font-size="14">I2S right slot</text><text x="127" y="355" font-size="13">Sound input</text>
+    <text x="385" y="220" font-size="19" font-weight="bold">ESP32 Sender</text><text x="385" y="247" font-size="14">I2S capture + mono mix</text><text x="385" y="270" font-size="14">16 kHz / 16-bit</text>
+    <text x="710" y="220" font-size="19" font-weight="bold">ESP32 Receiver</text><text x="710" y="247" font-size="14">ESP-NOW receive</text><text x="710" y="270" font-size="14">I2S audio output</text>
+    <text x="970" y="160" font-size="17" font-weight="bold">MAX98357A</text><text x="970" y="185" font-size="14">I2S amplifier</text><text x="970" y="205" font-size="13">Power amplification</text>
+    <text x="970" y="315" font-size="18" font-weight="bold">Speaker</text><text x="970" y="340" font-size="14">Audible voice output</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2.5" fill="none">
+    <path d="M220 177 H255 V215 H290"/><path d="M220 327 H255 V275 H290"/>
+    <path d="M480 245 H615" stroke="#7c3aed" stroke-width="3" stroke-dasharray="8 6"/>
+    <path d="M605 238 L615 245 L605 252" stroke="#7c3aed"/>
+    <path d="M805 220 H840 V177 H875"/><path d="M970 230 V275"/>
+  </g>
+  <text x="548" y="225" font-family="Arial" font-size="14" text-anchor="middle" fill="#6d28d9">ESP-NOW / 2.4 GHz</text>
+  <text x="550" y="430" font-family="Arial" font-size="14" text-anchor="middle" fill="#475569">Conceptual system architecture — verify exact pinout and test on hardware</text>
+</svg>
